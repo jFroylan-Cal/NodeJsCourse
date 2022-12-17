@@ -55,14 +55,28 @@ console.log(ciudad);
 //Operador de asignacion = 
 let x = 1;
 
-//Operador de asignacion de adicion += y sustraccion
+//Operador de asignacion de adicion +=, sustraccion -=, multiplicacion *=, portencia **= y residuo %= 
 
-let y = 1;
+let y = 12;
 let z = 22;
 
 y += z;
 z -= y;
-console.log(y);
-console.log(z)
+z *= y;
+y /= z;
+z %= y;
 
-//
+console.log(y);
+console.log(z);
+
+//Operadores de comparacion
+//Igual
+console.log(2==2);
+//true
+console.log(2=='2');
+//Diferente
+console.log(2!=2);
+//Operador extrictamente igual (===)
+console.log(2===2);
+//True
+console.log(2==='2');
