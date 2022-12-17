@@ -95,3 +95,19 @@ var num2 = 2;
 console.log(num2);
 console.log(++num2);
 console.log(num2);
+
+//Operadores logicos Vertablas de verdad
+//And &&
+console.log( 11 == 11 && 9 > 2); //Return true
+//Or ||
+console.log( 1 == 2 || 11 == 11); //return true
+
+//Operador condicional Ternario
+// condicion ? val : val2 
+
+//Desestructuraciom
+var person = { name: 'Pepe', lastName: 'Ramirez' }
+var { name, lastName} = person;
+console.log(name);
+console.log(lastName);
+
