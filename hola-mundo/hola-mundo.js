@@ -80,3 +80,18 @@ console.log(2!=2);
 console.log(2===2);
 //True
 console.log(2==='2');
+//Operador extrictamente diferente (!==)
+console.log(2!==2);
+//Operadores de desigualdades (<, >, ,<=, >=)
+console.log(44>2);
+//Operadores aritmeticos =, -, *, /, %, **
+//Operadores de incremento y decremento ++ y --
+var num = 1;
+console.log(num); //num = 1
+console.log(num++);//num = 1
+console.log(num);//num = 2
+
+var num2 = 2; 
+console.log(num2);
+console.log(++num2);
+console.log(num2);
