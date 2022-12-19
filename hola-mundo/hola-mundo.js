@@ -46,7 +46,7 @@ const pi = 3.1416;
 
 let perro = 'Huesos';
 
-var ciudad; 
+var ciudad;
 
 console.log(ciudad);
 
@@ -71,19 +71,19 @@ console.log(z);
 
 //Operadores de comparacion
 //Igual
-console.log(2==2);
+console.log(2 == 2);
 //true
-console.log(2=='2');
+console.log(2 == '2');
 //Diferente
-console.log(2!=2);
+console.log(2 != 2);
 //Operador extrictamente igual (===)
-console.log(2===2);
+console.log(2 === 2);
 //True
-console.log(2==='2');
+console.log(2 === '2');
 //Operador extrictamente diferente (!==)
-console.log(2!==2);
+console.log(2 !== 2);
 //Operadores de desigualdades (<, >, ,<=, >=)
-console.log(44>2);
+console.log(44 > 2);
 //Operadores aritmeticos +, -, *, /, %, **
 //Operadores de incremento y decremento ++ y --
 var num = 1;
@@ -91,22 +91,52 @@ console.log(num); //num = 1
 console.log(num++);//num = 1
 console.log(num);//num = 2
 
-var num2 = 2; 
+var num2 = 2;
 console.log(num2);
 console.log(++num2);
 console.log(num2);
 
 //Operadores logicos Vertablas de verdad
 //And &&
-console.log( 11 == 11 && 9 > 2); //Return true
+console.log(11 == 11 && 9 > 2); //Return true
 //Or ||
-console.log( 1 == 2 || 11 == 11); //return true
+console.log(1 == 2 || 11 == 11); //return true
 
 //Operador condicional Ternario
 // condicion ? val : val2 
 
 //Desestructuraciom
 var person = { name: 'Pepe', lastName: 'Ramirez' }
-var { name, lastName} = person;
+var { name, lastName } = person;
 console.log(name);
 console.log(lastName);
+
+
+//Programa que calcule la cantidada de segundos que hay en un día
+const time = 60;
+const hrsDay = 24;
+function calculateSecondsInHours(time, hrsDay) {
+    let min = hrsDay * time;
+    let seg = min * time;
+    return seg; 
+}
+console.log(calculateSecondsInHours(time, hrsDay));
+
+//Calcular el area de un rectangulo
+const heigh = 5;
+const weight = 2;
+
+function calculateArea(heigh, weight) {
+    let area = heigh * weight;
+    return area;
+}
+console.log(calculateArea(heigh, weight));
+
+//Calcular temperatura de centigrados a fahrenheit
+
+const temp = 20 
+function fahrenheit(temp) {
+    let fh = temp * (1.8) + 32;
+    return fh; 
+}
+console.log(fahrenheit(temp));
