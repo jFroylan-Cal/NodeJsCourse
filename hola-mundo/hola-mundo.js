@@ -84,7 +84,7 @@ console.log(2==='2');
 console.log(2!==2);
 //Operadores de desigualdades (<, >, ,<=, >=)
 console.log(44>2);
-//Operadores aritmeticos =, -, *, /, %, **
+//Operadores aritmeticos +, -, *, /, %, **
 //Operadores de incremento y decremento ++ y --
 var num = 1;
 console.log(num); //num = 1
@@ -110,4 +110,3 @@ var person = { name: 'Pepe', lastName: 'Ramirez' }
 var { name, lastName} = person;
 console.log(name);
 console.log(lastName);
-
