@@ -140,3 +140,52 @@ function fahrenheit(temp) {
     return fh; 
 }
 console.log(fahrenheit(temp));
+
+//For in
+var persona = {
+    nombre: 'Jose',
+    apellido: 'Marquez',
+    edad: 33
+}
+//Clave nombre del atributo 
+//Imprime el atributo y su valor 
+for (const clave in persona) {
+   console.log(clave, persona[clave]);
+}
+
+//For of
+//No permite iterar objetos (Persona) 
+var arrays = [1,'Dos',3,4,5,6,7,'Ocho','Cosa'];
+var cadena = 'Esta es una cadena de texto';
+
+for(let valor of arrays){
+    console.log(valor);
+}
+
+var cadena = 'Esta es una cadena de texto';
+for(let valor of cadena){
+    console.log(valor);
+}
+
+//Ejercicios de Ciclos
+//Imprimir las tablas de multiplicar del 2 al 12
+//For 
+ console.log('Tabla del 2 al 12');
+ for (let i = 1; i <= 12; i++) {
+    let base = 2
+    let result = i * base;
+    console.log('Tabla de '+ base +' X '+ i + ' = ' + result);
+ }
+//while
+var i = 1
+while (i<=12) {
+    let base = 2;
+    let result = i * base;
+    console.log('Tabla de '+ base +' X '+ i + ' = ' + result);
+    i++;
+}
+//Funciones
+function saludar() {
+    let saludo = 'Hola gente, te saludo desde una funcion';
+}
+
